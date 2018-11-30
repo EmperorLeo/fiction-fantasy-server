@@ -1,0 +1,9 @@
+/Users/Leo/Desktop/Leo Feldman/Code/FictionFantasy/fiction-fantasy-server/FictionFantasyServer.Data/bin/Debug/netstandard2.0/FictionFantasyServer.Data.deps.json
+/Users/Leo/Desktop/Leo Feldman/Code/FictionFantasy/fiction-fantasy-server/FictionFantasyServer.Data/bin/Debug/netstandard2.0/FictionFantasyServer.Data.dll
+/Users/Leo/Desktop/Leo Feldman/Code/FictionFantasy/fiction-fantasy-server/FictionFantasyServer.Data/bin/Debug/netstandard2.0/FictionFantasyServer.Data.pdb
+/Users/Leo/Desktop/Leo Feldman/Code/FictionFantasy/fiction-fantasy-server/FictionFantasyServer.Data/obj/Debug/netstandard2.0/FictionFantasyServer.Data.csprojAssemblyReference.cache
+/Users/Leo/Desktop/Leo Feldman/Code/FictionFantasy/fiction-fantasy-server/FictionFantasyServer.Data/obj/Debug/netstandard2.0/FictionFantasyServer.Data.csproj.CoreCompileInputs.cache
+/Users/Leo/Desktop/Leo Feldman/Code/FictionFantasy/fiction-fantasy-server/FictionFantasyServer.Data/obj/Debug/netstandard2.0/FictionFantasyServer.Data.AssemblyInfoInputs.cache
+/Users/Leo/Desktop/Leo Feldman/Code/FictionFantasy/fiction-fantasy-server/FictionFantasyServer.Data/obj/Debug/netstandard2.0/FictionFantasyServer.Data.AssemblyInfo.cs
+/Users/Leo/Desktop/Leo Feldman/Code/FictionFantasy/fiction-fantasy-server/FictionFantasyServer.Data/obj/Debug/netstandard2.0/FictionFantasyServer.Data.dll
+/Users/Leo/Desktop/Leo Feldman/Code/FictionFantasy/fiction-fantasy-server/FictionFantasyServer.Data/obj/Debug/netstandard2.0/FictionFantasyServer.Data.pdb

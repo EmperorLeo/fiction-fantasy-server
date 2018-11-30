@@ -1,0 +1,14 @@
+/Users/Leo/Desktop/Leo Feldman/Code/FictionFantasy/fiction-fantasy-server/FictionFantasyServer.NetCoreEntry/obj/Debug/netcoreapp2.1/FictionFantasyServer.NetCoreEntry.csprojAssemblyReference.cache
+/Users/Leo/Desktop/Leo Feldman/Code/FictionFantasy/fiction-fantasy-server/FictionFantasyServer.NetCoreEntry/obj/Debug/netcoreapp2.1/FictionFantasyServer.NetCoreEntry.csproj.CoreCompileInputs.cache
+/Users/Leo/Desktop/Leo Feldman/Code/FictionFantasy/fiction-fantasy-server/FictionFantasyServer.NetCoreEntry/obj/Debug/netcoreapp2.1/FictionFantasyServer.NetCoreEntry.AssemblyInfoInputs.cache
+/Users/Leo/Desktop/Leo Feldman/Code/FictionFantasy/fiction-fantasy-server/FictionFantasyServer.NetCoreEntry/obj/Debug/netcoreapp2.1/FictionFantasyServer.NetCoreEntry.AssemblyInfo.cs
+/Users/Leo/Desktop/Leo Feldman/Code/FictionFantasy/fiction-fantasy-server/FictionFantasyServer.NetCoreEntry/bin/Debug/netcoreapp2.1/FictionFantasyServer.NetCoreEntry.deps.json
+/Users/Leo/Desktop/Leo Feldman/Code/FictionFantasy/fiction-fantasy-server/FictionFantasyServer.NetCoreEntry/bin/Debug/netcoreapp2.1/FictionFantasyServer.NetCoreEntry.dll
+/Users/Leo/Desktop/Leo Feldman/Code/FictionFantasy/fiction-fantasy-server/FictionFantasyServer.NetCoreEntry/bin/Debug/netcoreapp2.1/FictionFantasyServer.NetCoreEntry.pdb
+/Users/Leo/Desktop/Leo Feldman/Code/FictionFantasy/fiction-fantasy-server/FictionFantasyServer.NetCoreEntry/bin/Debug/netcoreapp2.1/FictionFantasyServer.Data.dll
+/Users/Leo/Desktop/Leo Feldman/Code/FictionFantasy/fiction-fantasy-server/FictionFantasyServer.NetCoreEntry/bin/Debug/netcoreapp2.1/FictionFantasyServer.Data.pdb
+/Users/Leo/Desktop/Leo Feldman/Code/FictionFantasy/fiction-fantasy-server/FictionFantasyServer.NetCoreEntry/obj/Debug/netcoreapp2.1/FictionFantasyServer.NetCoreEntry.csproj.CopyComplete
+/Users/Leo/Desktop/Leo Feldman/Code/FictionFantasy/fiction-fantasy-server/FictionFantasyServer.NetCoreEntry/obj/Debug/netcoreapp2.1/FictionFantasyServer.NetCoreEntry.dll
+/Users/Leo/Desktop/Leo Feldman/Code/FictionFantasy/fiction-fantasy-server/FictionFantasyServer.NetCoreEntry/obj/Debug/netcoreapp2.1/FictionFantasyServer.NetCoreEntry.pdb
+/Users/Leo/Desktop/Leo Feldman/Code/FictionFantasy/fiction-fantasy-server/FictionFantasyServer.NetCoreEntry/bin/Debug/netcoreapp2.1/FictionFantasyServer.NetCoreEntry.runtimeconfig.json
+/Users/Leo/Desktop/Leo Feldman/Code/FictionFantasy/fiction-fantasy-server/FictionFantasyServer.NetCoreEntry/bin/Debug/netcoreapp2.1/FictionFantasyServer.NetCoreEntry.runtimeconfig.dev.json
