@@ -6,6 +6,6 @@ namespace FictionFantasyServer.Api.Controllers
     [ApiController]
     public class BooksController : ControllerBase
     {
-
+        
     }
 }
