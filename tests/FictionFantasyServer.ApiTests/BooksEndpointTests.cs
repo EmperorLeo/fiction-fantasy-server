@@ -7,7 +7,7 @@ namespace FictionFantasyServer.ApiTests
     {
         public BooksEndpointTests(CustomWebApplicationFactory<Startup> factory) : base(factory)
         {
-
+            
         }
 
         [Fact]
