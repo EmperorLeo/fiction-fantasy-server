@@ -37,6 +37,8 @@ namespace FictionFantasyServer.Api
             services.AddScoped<IBookCharacterService, BookCharacterService>();
             services.AddScoped<ICharacterService, CharacterService>();
             services.AddScoped<IUserBookService, UserBookService>();
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddAutoMapper(Assembly.GetAssembly(typeof(Book)));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
