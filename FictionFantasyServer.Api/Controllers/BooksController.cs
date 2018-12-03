@@ -1,18 +1,18 @@
 using System;
 using System.Threading.Tasks;
 using FictionFantasyServer.Models;
-using FictionFantasyServer.Services;
+using FictionFantasyServer.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FictionFantasyServer.Api.Controllers
 {
-    [Route("api/1.0/[controller]")]
+    [Route("api/1.0/books")]
     [ApiController]
     public class BooksController : ControllerBase
     {
-        private readonly BookService _bookService;
+        private readonly IBookService _bookService;
 
-        public BooksController(BookService bookService) 
+        public BooksController(IBookService bookService) 
         {
             _bookService = bookService;
         }

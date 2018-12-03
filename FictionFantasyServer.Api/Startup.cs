@@ -40,6 +40,11 @@ namespace FictionFantasyServer.Api
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddAutoMapper(Assembly.GetAssembly(typeof(Book)));
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("1.0", new Swashbuckle.AspNetCore.Swagger.Info { Title = "Fiction Fantasy API", Version = "1.0"});
+            });
+            services.AddCors();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
@@ -56,6 +61,21 @@ namespace FictionFantasyServer.Api
             }
 
             app.UseHttpsRedirection();
+
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/1.0/swagger.json", "FF API V1");
+            });
+            
+            app.UseCors(configurePolicy =>
+            {
+                configurePolicy.AllowAnyHeader();
+                configurePolicy.AllowAnyMethod();
+                configurePolicy.AllowAnyOrigin();
+            });
+
             app.UseMvc();
         }
     }
