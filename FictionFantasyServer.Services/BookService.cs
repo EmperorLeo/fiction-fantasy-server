@@ -25,6 +25,7 @@ namespace FictionFantasyServer.Services
         {
             book.AuthorId = authorId;
             var entity = _mapper.Map<BookEntity>(book);
+            entity.BookIntroduction = new BookIntroductionEntity();
             _bookRepository.Add(entity);
             await _work.Save();
             return _mapper.Map(entity, book);
