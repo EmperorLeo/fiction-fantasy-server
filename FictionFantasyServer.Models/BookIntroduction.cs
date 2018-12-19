@@ -9,9 +9,9 @@ namespace FictionFantasyServer.Models
         public Guid Id { get; set; }
         public string Summary { get; set; }
         public List<Character> Characters { get; set; }
-        public List<Setting> Settings { get; set; }
-        public List<Relationship> Relationships { get; set; }
-        public List<Personality> PersonalityTraits { get; set; }
+        public List<String> Settings { get; set; }
+        public List<String> Relationships { get; set; }
+        public List<String> PersonalityTraits { get; set; }
         public DateTime Created { get; set; }
         public DateTime? Modified { get; set; }
     }
