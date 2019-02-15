@@ -3,11 +3,11 @@ using FictionFantasyServer.Data.Entities;
 
 namespace FictionFantasyServer.Models.Mappings
 {
-    public class CharacterProfile : Profile
+    public class SettingsProfile : Profile
     {
-        public CharacterProfile()
+        public SettingsProfile()
         {
-            CreateMap<Character, CharacterEntity>().ReverseMap();
+            CreateMap<Setting, SettingsEntity>().ReverseMap();
         }
     }
 }
