@@ -12,7 +12,7 @@ namespace FictionFantasyServer.Api.Controllers
     {
         private readonly NationalityService _nationalityService;
 
-        public NationalitiesController(NationalityService nationalityService) 
+        public NationalitiesController(NationalityService nationalityService)
         {
             _nationalityService = nationalityService;
         }
@@ -23,6 +23,4 @@ namespace FictionFantasyServer.Api.Controllers
             return _nationalityService.GetNationality(nationalityId);
         }
     }
-
-
 }

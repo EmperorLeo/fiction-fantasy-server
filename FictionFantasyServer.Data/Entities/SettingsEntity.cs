@@ -10,7 +10,7 @@ namespace FictionFantasyServer.Data.Entities
         public string Name { get; set; }
         public string Description { get; set; }
         public string Vibe { get; set; }
-        public enum Historical { Past, Present, Future }
+        public Historical Historical { get; set; }
         public DateTime Created { get; set; }
         public DateTime? Modified { get; set; }
     }

@@ -23,6 +23,4 @@ namespace FictionFantasyServer.Api.Controllers
             return _speciesService.GetSpecies(speciesId);
         }
     }
-
-
 }

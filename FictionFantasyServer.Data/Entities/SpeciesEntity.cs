@@ -10,7 +10,7 @@ namespace FictionFantasyServer.Data.Entities
         public string Name { get; set; }
         public string Description { get; set; }
         public string Persecuted { get; set; }
-        public enum Stature { small, large, aggressive, passive, predator, prey, domestic, wild }
+        public Stature Stature { get; set; }
         public DateTime Created { get; set; }
         public DateTime? Modified { get; set; }
     }
