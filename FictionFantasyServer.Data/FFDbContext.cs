@@ -10,5 +10,8 @@ namespace FictionFantasyServer.Data
         public DbSet<UserEntity> Users { get; set; }
         public DbSet<BookEntity> Books { get; set; }
         public DbSet<CharacterEntity> Characters { get; set; }
+        public DbSet<NationalitiesEntity> Nationalities { get; set; }
+        public DbSet<SettingsEntity> Settings { get; set; }
+        public DbSet<SpeciesEntity> Species { get; set; }
     }
 }
