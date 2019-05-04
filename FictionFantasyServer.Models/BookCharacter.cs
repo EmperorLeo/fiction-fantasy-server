@@ -1,5 +1,6 @@
 using System;
 using FictionFantasyServer.Data.Enums;
+using FictionFantasyServer.Data.Entities;
 
 namespace FictionFantasyServer.Models
 {
@@ -7,6 +8,7 @@ namespace FictionFantasyServer.Models
     {
         public Guid Id { get; set; }
         public Guid BookId { get; set; }
+        public BookEntity book { get; set; }
         public string FullName { get; set; }
         public string Nickname { get; set; }
         public string Background { get; set; }
