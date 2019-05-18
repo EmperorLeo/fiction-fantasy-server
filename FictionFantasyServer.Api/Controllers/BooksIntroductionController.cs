@@ -18,15 +18,15 @@ namespace FictionFantasyServer.Api.Controllers
         }
 
         [HttpPut]
-        public Task UpdateIntroduction(Guid bookId, string body)
+        public Task UpdateIntroduction(Guid bookId, Guid bookIntroductionId, string body)
         {
-            return _bookIntroductionService.UpdateBookIntroduction(bookId, body);
+            return _bookIntroductionService.UpdateBookIntroduction(bookId, bookIntroductionId, body);
         }
         
         [HttpGet]
-        public Task<BookIntroduction> GetBookIntroduction(Guid BookId)
+        public Task<BookIntroduction> GetBookIntroduction(Guid bookId, Guid bookIntroductionId)
         {
-
+            return _bookIntroductionService.GetBookIntroduction(bookId, bookIntroductionId);
         }
     }
 

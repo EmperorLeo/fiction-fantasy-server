@@ -36,10 +36,11 @@ namespace FictionFantasyServer.Services
             await _work.Save();
         }
 
-        public Task<BookIntroduction> GetBookIntroduction(Guid bookId)
+        public Task<BookIntroduction> GetBookIntroduction(Guid bookId, Guid bookIntroductionId)
         {
             return _bookRepository.GetAll()
                 .Where(b => b.Id == bookId)
+                .Where(b => b.bookIntroductionId == bookIntroductionId)
                 .Select(b => b.BookIntroduction)
                 .ProjectTo<BookIntroduction>()
                 .FirstOrDefaultAsync();
