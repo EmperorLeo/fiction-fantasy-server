@@ -8,6 +8,7 @@ using FictionFantasyServer.Data;
 using FictionFantasyServer.Models;
 using FictionFantasyServer.Services;
 using FictionFantasyServer.Services.Interfaces;
+using IdentityServer4.AccessTokenValidation;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -45,6 +46,12 @@ namespace FictionFantasyServer.Api
                 c.SwaggerDoc("1.0", new Swashbuckle.AspNetCore.Swagger.Info { Title = "Fiction Fantasy API", Version = "1.0"});
             });
             services.AddCors();
+            services.AddAuthentication(IdentityServerAuthenticationDefaults.AuthenticationScheme)
+                .AddIdentityServerAuthentication(options =>
+                {
+                    options.Authority = Configuration["AuthorityUrl"];
+                    options.ApiName = "ffs";
+                });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
@@ -75,6 +82,8 @@ namespace FictionFantasyServer.Api
                 configurePolicy.AllowAnyMethod();
                 configurePolicy.AllowAnyOrigin();
             });
+
+            app.UseAuthentication();
 
             app.UseMvc();
         }
