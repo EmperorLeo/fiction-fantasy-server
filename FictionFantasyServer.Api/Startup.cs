@@ -51,6 +51,7 @@ namespace FictionFantasyServer.Api
                 {
                     options.Authority = Configuration["AuthorityUrl"];
                     options.ApiName = "ffs";
+                    options.RequireHttpsMetadata = false;
                 });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
