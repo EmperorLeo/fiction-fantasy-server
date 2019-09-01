@@ -6,8 +6,8 @@ namespace FictionFantasyServer.Services.Interfaces
 {
     public interface IBookIntroductionService
     {
-        Task UpdateBookIntroduction(Guid bookId, Guid bookIntroductionId, string body);
+        Task UpdateBookIntroduction(Guid bookId, string body);
 
-        Task<BookIntroduction> GetBookIntroduction(Guid bookId, Guid bookIntroductionId);
+        Task<BookIntroduction> GetBookIntroduction(Guid bookId);
     }
 }

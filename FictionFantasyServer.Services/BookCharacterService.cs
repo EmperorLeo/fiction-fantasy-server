@@ -37,7 +37,7 @@ namespace FictionFantasyServer.Services
 
         public async Task UpdateBookCharacter(Guid bookId, BookCharacter bookCharacter)
         {
-            var entity = await _bookRepository.GetAll().Where(b => b.Id == bookId).Select(b => b.BookCharacter) .FirstOrDefaultAsync();
+            var entity = await _bookRepository.GetAll().Where(b => b.Id == bookId).Select(b => b.BookCharacters.Where(bc => bc.Id == bookCharacter.Id)).FirstOrDefaultAsync();
             _mapper.Map(bookCharacter, entity);
             await _work.Save();
         }

@@ -29,22 +29,19 @@ namespace FictionFantasyServer.Services
         public async Task UpdateBookIntroduction(Guid bookId, string body)
         {
             var entity = await _bookRepository.GetAll().Where(b => b.Id == bookId).Select(b => b.BookIntroduction).FirstOrDefaultAsync();
-            _mapper.Map(b.BookIntroduction, entity);
-            
+
             // saves body text into BookIntroduction summary
             entity.Summary = body;
             await _work.Save();
         }
 
-        public Task<BookIntroduction> GetBookIntroduction(Guid bookId, Guid bookIntroductionId)
+        public Task<BookIntroduction> GetBookIntroduction(Guid bookId)
         {
-            return _bookRepository.GetAll()
-                .Where(b => b.Id == bookId)
-                .Where(b => b.bookIntroductionId == bookIntroductionId)
-                .Select(b => b.BookIntroduction)
-                .ProjectTo<BookIntroduction>()
+            return _mapper.ProjectTo<BookIntroduction>(
+                    _bookRepository.GetAll()
+                    .Where(b => b.Id == bookId)
+                    .Select(b => b.BookIntroduction))
                 .FirstOrDefaultAsync();
-
         }
     }
 }

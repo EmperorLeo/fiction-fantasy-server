@@ -9,13 +9,9 @@ namespace FictionFantasyServer.Data.Entities
     {
         public Guid Id { get; set; }
         public Guid BookId { get; set; }
-        public BookEntity book { get; set; }
-        public string FullName { get; set; }
-        public string Nickname { get; set; }
-        public string Background { get; set; }
-        public Gender Gender { get; set; }
-        public Orientation Orientation { get; set; }
-        public string Occupation { get; set; }
+        public BookEntity Book { get; set; }
+        public Guid CharacterId { get; set; }
+        public CharacterEntity Character { get; set; }
         public DateTime Created { get; set; }
         public DateTime? Modified { get; set; }
     }

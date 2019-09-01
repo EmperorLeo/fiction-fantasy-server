@@ -13,5 +13,12 @@ namespace FictionFantasyServer.Data
         public DbSet<NationalitiesEntity> Nationalities { get; set; }
         public DbSet<SettingsEntity> Settings { get; set; }
         public DbSet<SpeciesEntity> Species { get; set; }
+
+        // protected override void OnModelCreating(ModelBuilder modelBuilder)
+        // {
+        //     modelBuilder.Entity<BookEntity>()
+        //         .HasOne(b => b.BookIntroduction)
+        //         .WithOne(bi => bi.Book);
+        // }
     }
 }

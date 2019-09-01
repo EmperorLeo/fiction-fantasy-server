@@ -4,15 +4,17 @@ using System.Collections.Generic;
 using FictionFantasyServer.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace FictionFantasyServer.NetCoreEntry.Migrations
 {
     [DbContext(typeof(FFDbContext))]
-    partial class FFDbContextModelSnapshot : ModelSnapshot
+    [Migration("20190717012010_AddJoinsAndBookAttributes")]
+    partial class AddJoinsAndBookAttributes
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

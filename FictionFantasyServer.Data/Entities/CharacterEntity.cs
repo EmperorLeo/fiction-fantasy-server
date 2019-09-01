@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using FictionFantasyServer.Data.Entities.Base;
 using FictionFantasyServer.Data.Enums;
 
@@ -13,6 +14,7 @@ namespace FictionFantasyServer.Data.Entities
         public Gender Gender { get; set; }
         public Orientation Orientation { get; set; }
         public string Occupation { get; set; }
+        public ICollection<BookCharacterEntity> BookCharacters { get; set; }
         public DateTime Created { get; set; }
         public DateTime? Modified { get; set; }
     }

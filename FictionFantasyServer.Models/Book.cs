@@ -16,8 +16,8 @@ namespace FictionFantasyServer.Models
         public DateTime? Modified { get; set; }
         public UserEntity Author { get; set; }
         public Guid AuthorId { get; set; }
-        public BookIntroductionEntity BookIntroduction { get; set; }
+        public BookIntroduction BookIntroduction { get; set; }
         public Guid BookIntroductionId { get; set;}
-        public ICollection<BookCharacterEntity> BookCharacters { get; set; }
+        public ICollection<BookCharacter> BookCharacters { get; set; }
     }
 }

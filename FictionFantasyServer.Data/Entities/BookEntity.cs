@@ -17,8 +17,6 @@ namespace FictionFantasyServer.Data.Entities
         public UserEntity Author { get; set; }
         public Guid AuthorId { get; set; }
         public BookIntroductionEntity BookIntroduction { get; set; }
-        public Guid BookIntroductionId { get; set;}
         public ICollection<BookCharacterEntity> BookCharacters { get; set; }
-
     }
 }
