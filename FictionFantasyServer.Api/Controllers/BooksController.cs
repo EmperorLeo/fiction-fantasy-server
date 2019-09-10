@@ -25,6 +25,11 @@ namespace FictionFantasyServer.Api.Controllers
         {
             return _bookService.CreateBook(Guid.Parse(User.Claims.First(c => c.Type == "sub").Value), book);
         }
+
+        [HttpGet("{bookId:guid}")]
+        public Task<Book> GetBook(Guid bookId) {
+            return _bookService.GetBook(bookId);
+        }
     }
 
 
