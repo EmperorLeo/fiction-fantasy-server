@@ -2,7 +2,6 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
-using AutoMapper.QueryableExtensions;
 using FictionFantasyServer.Data;
 using FictionFantasyServer.Data.Entities;
 using FictionFantasyServer.Models;

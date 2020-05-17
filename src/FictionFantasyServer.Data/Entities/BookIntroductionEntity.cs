@@ -11,9 +11,7 @@ namespace FictionFantasyServer.Data.Entities
         public Guid BookId { get; set; }
         public BookEntity Book { get; set; }
         public string Summary { get; set; }
-        public List<string> Settings { get; set; }
-        public List<string> Relationships { get; set; }
-        public List<string> PersonalityTraits { get; set; }
+        public List<SettingsEntity> Settings { get; set; }
         public DateTime Created { get; set; }
         public DateTime? Modified { get; set; }
     }

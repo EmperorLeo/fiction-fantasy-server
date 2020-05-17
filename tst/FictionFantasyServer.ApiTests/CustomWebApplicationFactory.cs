@@ -1,7 +1,5 @@
-using System;
 using FictionFantasyServer.Api;
 using FictionFantasyServer.Data;
-using FictionFantasyServer.Data.Entities;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.EntityFrameworkCore;
