@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Automapper" Version="8.0.0" />
+    <PackageReference Include="Automapper" Version="16.1.1" />
   </ItemGroup>
 
 </Project>
